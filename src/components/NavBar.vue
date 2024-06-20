@@ -16,6 +16,9 @@
         <li class="nav-item">
           <RouterLink to="/products" class="nav-link">Products</RouterLink>
         </li>
+        <li>
+          <RouterLink to="/cart" class="nav-link">Cart</RouterLink>
+        </li>
         <li class="nav-item dropdown">
           <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
             Categories
