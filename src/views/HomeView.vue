@@ -1,9 +1,7 @@
 <template>
-    <div>
-      <!-- Navbar -->
+    <div btn btn- secondary>
       
   
-      <!-- Hero Section -->
       <div class="container mt-4 mb-5 bg-light p-4 rounded">
         <div class="image-container position-relative mb-5">
           <img src="../assets/images/background.jpg" alt="Background Image" class="w-100 rounded">
@@ -14,7 +12,6 @@
         </div>
       </div>
   
-      <!-- Featured Products -->
       <div class="container">
         <h2 class="text-center mb-4">Featured Products</h2>
         <div class="row">
