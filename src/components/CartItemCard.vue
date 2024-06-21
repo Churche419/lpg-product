@@ -15,7 +15,7 @@
 
 <script setup>
 import { computed } from 'vue';
-import { formatPrice } from '../utils/formatters.js'; 
+import { formatPrice } from '/utils/formatters.js'; 
 const props = defineProps({
     product: Object
 });

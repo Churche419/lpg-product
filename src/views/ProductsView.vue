@@ -33,7 +33,6 @@ onMounted(async () => {
 const products = computed(() => store.state.products);
 
 function viewProduct(product) {
-  // Navigate to ProductDetails view with the product ID as a parameter
   router.push({ name: 'ProductDetailsView', params: { id: product.id } });
 }
 </script>

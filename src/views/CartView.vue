@@ -10,15 +10,13 @@
                 </div>
             </div>
         </div>
-        <div class="mt-5">
-            <CartSummaryCard />
-        </div>
+        
     </div>
 </template>
 
 <script setup>
 import CartItemCard from '../components/CartItemCard.vue';
-import CartSummaryCard from '../components/CartSummaryCard.vue';
+
 import { computed, onMounted } from 'vue';
 import { useStore } from "vuex";
 import { useRouter } from 'vue-router';
@@ -39,5 +37,6 @@ function editProduct(product) {
 const deleteProduct = async (product) => {
     await store.commit('deleteFromCart', product);
 };
+
 
 </script>

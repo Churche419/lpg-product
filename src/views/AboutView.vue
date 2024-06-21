@@ -23,7 +23,7 @@
       </div>
       <div class="col-md-6">
         <img
-          src="/assets/images/xr.jpeg"
+          src="../assets/images/xr.jpeg"
           class="img-fluid rounded"
           alt="About Us Image"
         />
@@ -34,7 +34,7 @@
 
 <script>
 export default {
-  name: 'AboutUs',
+  name: 'about',
   // Add any necessary data, methods, or lifecycle hooks here
 }
 </script>

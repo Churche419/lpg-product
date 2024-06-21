@@ -18,7 +18,7 @@
           <div class="col-md-3" v-for="product in featuredProducts" :key="product.id">
             <div class="card mb-4">
               <a href="#">
-                <img :src="product.image" class="card-img-top" :alt="product.productName">
+                <img :src="'/src/assets/images/' + product.Image" class="card-img-top">
               </a>
               <div class="card-body text-center">
                 <h6 class="card-title">{{ product.productName }}</h6>
@@ -36,10 +36,10 @@
           <div class="col-md-3" v-for="category in categories" :key="category.id">
             <div class="card mb-4">
               <a href="#">
-                <img :src="category.image" class="card-img-top" :alt="category.name">
+                <img :src="'/src/assets/images/' + product.Image" class="card-img-top" >
               </a>
               <div class="card-body text-center">
-                <h6 class="card-title">{{ category.name }}</h6>
+                <h6 class="card-title">{{ product.category}}</h6>
               </div>
             </div>
           </div>
@@ -99,10 +99,10 @@
   // Sample data for featured products and categories (replace with actual data)
   const featuredProducts = computed(() => products.value.slice(0, 4));
   const categories = computed(() => [
-    { id: 1, name: 'Electronics', image: 'path/to/electronics.jpg' },
-    { id: 2, name: 'Fashion', image: 'path/to/fashion.jpg' },
-    { id: 3, name: 'Home & Garden', image: 'path/to/home_garden.jpg' },
-    { id: 4, name: 'Sports', image: 'path/to/sports.jpg' },
+    { id: 1, name: 'Electronics', image: '../assets/images/palmwine.jpg' },
+    { id: 2, name: 'Fashion', image: '../assets/images/palmwine.jpg' },
+    { id: 3, name: 'Home & Garden', image: '../assets/images/palmwine.jpg' },
+    { id: 4, name: 'Sports', image: '../assets/images/palmwine.jpg' },
   ]);
   </script>
   
