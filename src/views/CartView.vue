@@ -25,7 +25,7 @@ const store = useStore();
 const router = useRouter();
 
 onMounted(() => {
-    store.commit('updateCartFromLocalStorage');//to ensure that the cart data is loaded from localStorage when the component is mounted
+    store.commit('updateCartFromLocalStorage');
 });
 
 const items = computed(() => store.getters.cartItems);

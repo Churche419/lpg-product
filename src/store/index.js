@@ -1,7 +1,7 @@
 import { createStore } from 'vuex';
 import axios from 'axios';
 
-// Utility function to update the localStorage with the cart data
+
 function updateLocalStorage(cart) {
     localStorage.setItem('cart', JSON.stringify(cart));
 }
@@ -9,21 +9,21 @@ function updateLocalStorage(cart) {
 const store = createStore({
     state: {
         products: [],
-        selectedProduct: {}, // Initialize as an empty object
+        selectedProduct: {},
         cart: []
     },
     getters: {
-        // Getter to compute the quantity of a specific product in the cart
+    
         productQuantity: state => product => {
             const item = state.cart.find(i => i.id === product.id);
             if (item) return item.quantity;
             else return null;
         },
-        // Getter to return the entire cart
+      
         cartItems: state => {
             return state.cart;
         },
-        // Getter to calculate the total cost of items in the cart
+        
         cartTotal: state => {
             return state.cart.reduce((total, item) => total + item.quantity * item.product_price, 0);
         }
@@ -68,13 +68,13 @@ const store = createStore({
                 if (item.quantity > 1) {
                     item.quantity--;
                 } else {
-                    state.cart = state.cart.filter(i => i.id !== product.id); // Corrected here
+                    state.cart = state.cart.filter(i => i.id !== product.id); 
                 }
             }
             updateLocalStorage(state.cart);
         },
         deleteFromCart(state, product) {
-            state.cart = state.cart.filter(i => i.id !== product.id); // Corrected here
+            state.cart = state.cart.filter(i => i.id !== product.id); 
             updateLocalStorage(state.cart);
         },
         updateCartFromLocalStorage(state) {

@@ -29,7 +29,6 @@
         </div>
       </div>
   
-      <!-- Product Categories -->
       <div class="container mt-5 mb-5">
         <h2 class="text-center mb-4">Shop by Categories</h2>
         <div class="row">
@@ -46,7 +45,6 @@
         </div>
       </div>
   
-      <!-- Promotional Banner -->
       <div class="container mt-5 mb-5">
         <div class="alert alert-secondary text-center">
           <h1>Get Support</h1>
@@ -55,7 +53,6 @@
         </div>
       </div>
   
-      <!-- Footer -->
       <footer class="bg-dark text-white text-center py-3">
         <div class="container">
           <div class="row">
@@ -96,13 +93,13 @@
   
   const products = computed(() => store.state.products);
   
-  // Sample data for featured products and categories (replace with actual data)
+  
   const featuredProducts = computed(() => products.value.slice(0, 4));
   const categories = computed(() => [
-    { id: 1, name: 'Electronics', image: '../assets/images/palmwine.jpg' },
-    { id: 2, name: 'Fashion', image: '../assets/images/palmwine.jpg' },
-    { id: 3, name: 'Home & Garden', image: '../assets/images/palmwine.jpg' },
-    { id: 4, name: 'Sports', image: '../assets/images/palmwine.jpg' },
+    { id: 1, name: 'Electronics', image:  '/src/assets/images/' + product.Image },
+    { id: 2, name: 'Fashion', image:  '/src/assets/images/' + product.Image },
+    { id: 3, name: 'Home & Garden', image:  '/src/assets/images/' + product.Image },
+    { id: 4, name: 'Sports', image:  '/src/assets/images/' + product.Image },
   ]);
   </script>
   

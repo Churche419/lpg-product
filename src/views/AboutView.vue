@@ -23,7 +23,7 @@
       </div>
       <div class="col-md-6">
         <img
-          src="../assets/images/xr.jpeg"
+          :src="'/src/assets/images/' + product.Image"
           class="img-fluid rounded"
           alt="About Us Image"
         />
@@ -35,10 +35,10 @@
 <script>
 export default {
   name: 'about',
-  // Add any necessary data, methods, or lifecycle hooks here
+  
 }
 </script>
 
 <style scoped>
-/* Add custom scoped styles if needed */
+
 </style>
