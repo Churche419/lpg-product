@@ -4,30 +4,15 @@
       <div class="row">
         <div class="col-md-6">
           <h2>Contact Us</h2>
+                 
           <p>
-            Welcome to our online store! We aim to provide high-quality products
-            and excellent customer service to shoppers from all around the world.
-          </p>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-            enim ad minim veniam, quis nostrud exercitation ullamco laboris
-            nisi ut aliquip ex ea commodo consequat.
-          </p>
-          <p>
-            Duis aute irure dolor in reprehenderit in voluptate velit esse
-            cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
-            cupidatat non proident, sunt in culpa qui officia deserunt mollit
-            anim id est laborum.
+            For enquiries, please contact us : 0803282837 , 0912872727, 23482282837. We are 
+        working hard to make your experience on our site more better. 
+        Follow us on X : https://X.com/lpg products. thank you
+
           </p>
         </div>
-        <div class="col-md-6">
-          <img
-            :src="'/src/assets/images/xr.jpeg'"
-            class="img-fluid rounded"
-            alt="About Us Image"
-          />
-        </div>
+        
       </div>
     </div>
   </template>

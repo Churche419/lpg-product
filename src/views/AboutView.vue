@@ -25,7 +25,7 @@
           <p>we embraced a godly life , cultivating spiritual growth and values<br>
           our journey has been a transformative blend of technical skills and personal growth<br>
           weve gained a deeper connection with our spiritual self, and are excited to build up
-           ourselfs by more leaning, and inspirin others along the way.<br>
+           ourselfs by more leaning, and inspiring others along the way.<br>
            <emp>Thank you </emp>
           </p>
       </div>

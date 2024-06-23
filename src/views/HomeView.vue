@@ -17,7 +17,7 @@
         <div class="row">
           <div class="col-md-3" v-for="product in featuredProducts" :key="product.id">
             <div class="card mb-4">
-              <a href="#">
+              <a href="/products">
                 <img :src="'/src/assets/images/' + product.Image" class="card-img-top">
               </a>
               <div class="card-body text-center">
