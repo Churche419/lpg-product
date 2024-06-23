@@ -21,13 +21,13 @@
         </li>
         <li class="nav-item dropdown">
           <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-            Categories
+            Others
           </a>
           <ul class="dropdown-menu">
-            <li><a class="dropdown-item" href="#">Fashion</a></li>
-            <li><a class="dropdown-item" href="#">Electronics</a></li>
+            <li><RouterLink to="/contact" class="nav-link">Contact Us</RouterLink></li>
+            <li><a class="dropdown-item" href="#">coming soon</a></li>
             <li><hr class="dropdown-divider"></li>
-            <li><a class="dropdown-item" href="#">Sports</a></li>
+            <li><a class="dropdown-item" href="#">coming soon...</a></li>
           </ul>
         </li>
       

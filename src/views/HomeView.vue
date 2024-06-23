@@ -29,7 +29,7 @@
         </div>
       </div>
   
-      <div class="container mt-5 mb-5">
+      <!-- <div class="container mt-5 mb-5">
         <h2 class="text-center mb-4">Shop by Categories</h2>
         <div class="row">
           <div class="col-md-3" v-for="category in categories" :key="category.id">
@@ -38,12 +38,12 @@
                 <img :src="'/src/assets/images/' + product.Image" class="card-img-top" >
               </a>
               <div class="card-body text-center">
-                <h6 class="card-title">{{ product.category}}</h6>
+                <h6 class="card-title">{{ product.product_category}}</h6>
               </div>
             </div>
           </div>
         </div>
-      </div>
+      </div> -->
   
       <div class="container mt-5 mb-5">
         <div class="alert alert-secondary text-center">
@@ -52,21 +52,25 @@
           <a href="#" class="btn btn-primary">Contact Us</a>
         </div>
       </div>
+      <marquee direction="left">For enquiries, please contact us : 0803282837 , 0912872727, 23482282837. We are 
+        working hard to make your experience on our site more better. Follow us on X : https://X.com/lpg products. thank you
+      </marquee>
   
       <footer class="bg-dark text-white text-center py-3">
         <div class="container">
           <div class="row">
             <div class="col-md-4">
               <h5>About Us</h5>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vehicula urna at leo vestibulum.</p>
+              <p>We aim to provide high-quality products and excellent customer service
+                 to shoppers from all around the world.</p>
             </div>
             <div class="col-md-4">
               <h5>Quick Links</h5>
               <ul class="list-unstyled">
-                <li><a href="#" class="text-white">Home</a></li>
-                <li><a href="#" class="text-white">Shop</a></li>
-                <li><a href="#" class="text-white">Contact</a></li>
-                <li><a href="#" class="text-white">About</a></li>
+                <li><RouterLink to="/" class="nav-link">Home</RouterLink></li>
+                <li><RouterLink to="/products" class="nav-link">Shop</RouterLink></li>
+                <li><RouterLink to="/about" class="nav-link">About</RouterLink></li>
+                <!-- <li><RouterLink to="/about" class="nav-link">Contact</RouterLink></li> -->
               </ul>
             </div>
             <div class="col-md-4">
@@ -95,12 +99,12 @@
   
   
   const featuredProducts = computed(() => products.value.slice(0, 4));
-  const categories = computed(() => [
-    { id: 1, name: 'Electronics', image:  '/src/assets/images/' + product.Image },
-    { id: 2, name: 'Fashion', image:  '/src/assets/images/' + product.Image },
-    { id: 3, name: 'Home & Garden', image:  '/src/assets/images/' + product.Image },
-    { id: 4, name: 'Sports', image:  '/src/assets/images/' + product.Image },
-  ]);
+  // const categories = computed(() => [
+  //   { id: 1, name: 'Electronics', image:  '/src/assets/images/xr.jpeg'  },
+  //   { id: 2, name: 'Fashion', image:  '/src/assets/images/jordan.jpg'  },
+  //   { id: 3, name: 'Home & Garden', image:  '/src/assets/images/ps5.jpeg' },
+  //   { id: 4, name: 'Sports', image:  '/src/assets/images/s24.jpeg'  },
+  // ]);
   </script>
   
   <style>
@@ -114,8 +118,8 @@
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    background-color: rgba(0, 0, 0, 0.6);
-    color: whitesmoke;
+    background-color: rgba(219, 205, 205, 0.6);
+    color: rgb(2, 1, 1);
     padding: 20px;
     border-radius: 10px;
   }
