@@ -31,7 +31,7 @@ const store = createStore({
     actions: {
         async fetchProducts({ commit }) {
             try {
-                const response = await axios.get('http://localhost/PRODUCTSDATA/get-products.php');
+                const response = await axios.get('https://alvatek.com/projects/ota/group1/get-products.php');
                 commit('setProducts', response.data);
             } catch (error) {
                 console.error('Error fetching products:', error);
