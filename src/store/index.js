@@ -39,7 +39,7 @@ const store = createStore({
         },
         async fetchProductById({ commit }, id) {
             try {
-                const response = await axios.get(`http://localhost/PRODUCTDATA/get-products.php?id=${id}`);
+                const response = await axios.get(`https://alvahtek.com/projects/ota/group1/get-products.php?id=${id}`);
                 commit('setSelectedProduct', response.data);
             } catch (error) {
                 console.error('Error fetching product by ID:', error);
