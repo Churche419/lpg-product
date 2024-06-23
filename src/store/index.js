@@ -38,7 +38,7 @@ const store = createStore({
             }
         },
         async fetchProductById({ commit }, id) {
-            try {
+            try { 
                 const response = await axios.get(`https://alvahtek.com/projects/ota/group1/get-products.php?id=${id}`);
                 commit('setSelectedProduct', response.data);
             } catch (error) {

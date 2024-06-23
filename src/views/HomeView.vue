@@ -116,7 +116,7 @@
   
   .text-overlay {
     top: 50%;
-    left: 50%;
+    left: 40%;
     transform: translate(-50%, -50%);
     background-color: rgba(219, 205, 205, 0.6);
     color: rgb(2, 1, 1);
