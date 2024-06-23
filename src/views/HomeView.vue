@@ -49,7 +49,7 @@
         <div class="alert alert-secondary text-center">
           <h1>Get Support</h1>
           <p>For enquiries, contact us.</p>
-          <a href="#" class="btn btn-primary">Contact Us</a>
+          <a href="/contact" class="btn btn-primary">Contact Us</a>
         </div>
       </div>
       <marquee direction="left">For enquiries, please contact us : 0803282837 , 0912872727, 23482282837. We are 
