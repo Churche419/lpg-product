@@ -7,7 +7,7 @@
             </div>
             <div class="col-md-8">
                 <h4>{{ selectedProduct.productName }}</h4>
-                <h1>${{ selectedProduct.price.toFixed(2) }}</h1>
+                <h1>${{ selectedProduct.price }}</h1>
                 <p class="text-muted">{{ selectedProduct.product_category }}</p>
                 <p>{{ selectedProduct.description }}</p>
                 <button class="btn btn-dark btn-sm" @click="addToCart">Add to cart</button>
