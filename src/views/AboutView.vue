@@ -1,8 +1,8 @@
 <!-- AboutUs.vue -->
 <template>
   <div class="container mt-5">
-    <div class="row">
-      <div class="col-md-6">
+    <div class="row  ">
+      <div class="col-md-6  p-3 mb-2 bg-secondary text-white">
         <h2>About Our Online Store</h2>
         <p>
           Welcome to our online store! We aim to provide high-quality products
@@ -30,7 +30,7 @@
           </p>
       </div>
       <h1>Team</h1>
-      <div class="row mt-5 db-flex ">
+      <div class="row mt-5 db-flex p-3 mb-2 bg-dark-subtle text-dark-emphasis">
       <div class="col-md-4">
         <img
           :src="'/images/devs5.jpg'"

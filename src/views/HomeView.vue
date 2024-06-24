@@ -13,14 +13,15 @@
       </div>
   
       <div class="container">
-        <h2 class="text-center mb-4">Featured Products</h2>
+        <h2 class="text-center mb-4 
+        ">Featured Products</h2>
         <div class="row">
           <div class="col-md-3" v-for="product in featuredProducts" :key="product.id">
             <div class="card mb-4">
               <a href="/products">
                 <img :src="'/images/' + product.Image" class="card-img-top">
               </a>
-              <div class="card-body text-center">
+              <div class="card-body text-center  bg-dark-subtle text-dark-emphasis">
                 <h6 class="card-title">{{ product.productName }}</h6>
                 <p>{{ product.price }}</p>
               </div>
