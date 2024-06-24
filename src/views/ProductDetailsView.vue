@@ -1,14 +1,16 @@
 <template>
     <div class="container mt-5 mb-5">
-        <div class="row">
+        <div class="">
             <div class="col-md-4">
                 <img class="img-fluid rounded-4 shadow-sm" :src="'/images/'+ selectedProduct.Image" :alt="selectedProduct.Image">
-            </div>
+            </div><br><br>
             <div class="col-md-8">
                 <h4>{{ selectedProduct.productName }}</h4>
                 <h1>${{ selectedProduct.price }}</h1>
                 <p class="text-muted">{{ selectedProduct.product_category }}</p>
                 <p>{{ selectedProduct.description }}</p>
+                <button type="button" class="btn btn-primary" @click="addToCart()">Add to cart</button><br><br>
+                <button type="button" class="btn btn-primary" @click="removeFromCart()">Remove From Cart</button><br><br>
             </div>
         </div>
     </div>
@@ -30,5 +32,14 @@ onMounted(async () => {
 });
 
 const selectedProduct = computed(() => store.state.selectedProduct);
+
+
+const addToCart = async () => {
+    await store.commit('addToCart', selectedProduct.value);
+};
+const removeFromCart = async () => {
+    await store.commit('removeFromCart', selectedProduct.value);
+};
+
 
 </script>

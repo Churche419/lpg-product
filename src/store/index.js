@@ -13,13 +13,7 @@ const store = createStore({
         cart: []
     },
     getters: {
-    
-        productQuantity: state => product => {
-            const item = state.cart.find(i => i.id === product.id);
-            if (item) return item.quantity;
-            else return null;
-        },
-      
+             
         cartItems: state => {
             return state.cart;
         },
