@@ -30,10 +30,10 @@
           </p>
       </div>
       <h1>Team</h1>
-      <div class="row mt-5">
+      <div class="row mt-5 db-flex ">
       <div class="col-md-4">
         <img
-          :src="'/images/devs.jpg'"
+          :src="'/images/devs5.jpg'"
           class="img-fluid rounded"
           alt="About Us Image"
           width="40%"
@@ -42,7 +42,7 @@
       </div>
       <div class="col-md-4">
         <img
-          :src="'/images/devs2.jpg'"
+          :src="'/images/devs4.jpg'"
           class="img-fluid rounded"
           alt="About Us Image"
           width="40%"
