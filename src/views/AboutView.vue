@@ -36,7 +36,7 @@
           :src="'/images/devs5.jpg'"
           class="img-fluid rounded"
           alt="About Us Image"
-          width="40%"
+          width="60%"
         />
         <p>Ajene George</p>
       </div>
@@ -45,22 +45,22 @@
           :src="'/images/devs4.jpg'"
           class="img-fluid rounded"
           alt="About Us Image"
-          width="40%"
+          width="60%"
         />
         <p>Lemuel Abahi</p>
       </div>
-      
-    </div>
-    </div>
-    <div class="col-md-4">
+      <div class="col-md-4">
         <img
           :src="'/images/devs3.jpeg'"
           class="img-fluid rounded"
           alt="About Us Image"
-          width="40%"
+          width="60%"
         />
         <p>Anyebe Praise</p>
       </div>
+    </div>
+    </div>
+    
   </div>
 
 </template>
