@@ -25,7 +25,7 @@
           </a>
           <ul class="dropdown-menu  ">
             <li><RouterLink to="/contact" class="nav-link" >Contact Us</RouterLink></li>
-            <li><a class="dropdown-item" href="#">coming soon</a></li>
+            <li><RouterLink to="/orders" class="nav-link" >Orders</RouterLink></li>
             <li><hr class="dropdown-divider"></li>
             <li><a class="dropdown-item" href="#">coming soon...</a></li>
           </ul>
