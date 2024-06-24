@@ -4,7 +4,7 @@
   
       <div class="container mt-4 mb-5 bg-light p-4 rounded">
         <div class="image-container position-relative mb-5">
-          <img src="../assets/images/background.jpg" alt="Background Image" class="w-100 rounded">
+          <img src="/images/background.jpg" alt="Background Image" class="w-100 rounded">
           <div class="text-overlay position-absolute text-center">
             <h1>LGP</h1>
             <p>We are thrilled to have you here. Get your products at the best deals here.</p>
@@ -18,7 +18,7 @@
           <div class="col-md-3" v-for="product in featuredProducts" :key="product.id">
             <div class="card mb-4">
               <a href="/products">
-                <img :src="'/src/assets/images/' + product.Image" class="card-img-top">
+                <img :src="'/images/' + product.Image" class="card-img-top">
               </a>
               <div class="card-body text-center">
                 <h6 class="card-title">{{ product.productName }}</h6>
