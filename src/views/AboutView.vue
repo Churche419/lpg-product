@@ -17,21 +17,21 @@
         <p>
           We are students of the OTA(otukpo tech academy) for 2024 Batch 1<br>
           During our Bootcamp we learnt about html and css, which is building blocks of the web<br>
-          we also learnt about Vue js , apowerful javascript framework<br>
-          explored php, a server-side language for dynamic web development<br>
-          discovered bootstrap, a popular framework for responsive design<br>
+          We also learnt about Vue js , a powerful javascript framework<br>
+          Explored php, a server-side language for dynamic web development<br>
+          Discovered bootstrap, a popular framework for responsive design<br>
           </p>
           <h4>Beyond Code</h4>
-          <p>we embraced a godly life , cultivating spiritual growth and values<br>
+          <p>We embraced a godly life , cultivating spiritual growth and values<br>
           our journey has been a transformative blend of technical skills and personal growth<br>
-          weve gained a deeper connection with our spiritual self, and are excited to build up
+          Weve gained a deeper connection with our spiritual self, and are excited to build up
            ourselfs by more leaning, and inspiring others along the way.<br>
            <emp>Thank you </emp>
           </p>
       </div>
       <h1>Team</h1>
-      <div class="row">
-      <div class="col-md-1">
+      <div class="row mt-5">
+      <div class="col-md-4">
         <img
           :src="'/images/devs.jpg'"
           class="img-fluid rounded"
@@ -40,7 +40,7 @@
         />
         <p>Ajene George</p>
       </div>
-      <div class="col-md-1">
+      <div class="col-md-4">
         <img
           :src="'/images/devs2.jpg'"
           class="img-fluid rounded"
@@ -52,7 +52,7 @@
       
     </div>
     </div>
-    <div class="col-md-1">
+    <div class="col-md-4">
         <img
           :src="'/images/devs3.jpeg'"
           class="img-fluid rounded"
