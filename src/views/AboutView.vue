@@ -33,7 +33,7 @@
       <div class="row">
       <div class="col-md-1">
         <img
-          :src="'/src/assets/images/devs.jpg'"
+          :src="'/images/devs.jpg'"
           class="img-fluid rounded"
           alt="About Us Image"
           width="40%"
@@ -42,7 +42,7 @@
       </div>
       <div class="col-md-1">
         <img
-          :src="'/src/assets/images/devs2.jpg'"
+          :src="'/images/devs2.jpg'"
           class="img-fluid rounded"
           alt="About Us Image"
           width="40%"
@@ -54,7 +54,7 @@
     </div>
     <div class="col-md-1">
         <img
-          :src="'/src/assets/images/devs3.jpeg'"
+          :src="'/images/devs3.jpeg'"
           class="img-fluid rounded"
           alt="About Us Image"
           width="40%"
