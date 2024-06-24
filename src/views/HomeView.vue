@@ -2,7 +2,7 @@
     <div btn btn- secondary>
       
   
-      <div class="container mt-4 mb-5 bg-light p-4 rounded">
+      <div class="container mt-4 mb-5 bg-light p-4 rounded  p-3 mb-2 bg-dark-subtle text-dark-emphasis">
         <div class="image-container position-relative mb-5">
           <img src="/images/background.jpg" alt="Background Image" class="w-100 rounded">
           <div class="text-overlay position-absolute text-center">
@@ -12,7 +12,7 @@
         </div>
       </div>
   
-      <div class="container">
+      <div class="container p-3 mb-2 bg-dark-subtle text-dark-emphasis">
         <h2 class="text-center mb-4 
         ">Featured Products</h2>
         <div class="row">
@@ -21,7 +21,8 @@
               <a href="/products">
                 <img :src="'/images/' + product.Image" class="card-img-top">
               </a>
-              <div class="card-body text-center  bg-dark-subtle text-dark-emphasis">
+              
+              <div class="card-body text-center ">
                 <h6 class="card-title">{{ product.productName }}</h6>
                 <p>{{ product.price }}</p>
               </div>
@@ -46,7 +47,7 @@
         </div>
       </div> -->
   
-      <div class="container mt-5 mb-5">
+      <div class="container mt-5 mb-5  p-3 mb-2 bg-dark-subtle text-dark-emphasis">
         <div class="alert alert-secondary text-center">
           <h1>Get Support</h1>
           <p>For enquiries, contact us.</p>
