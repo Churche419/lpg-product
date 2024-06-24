@@ -54,7 +54,8 @@
           <a href="/contact" class="btn btn-primary">Contact Us</a>
         </div>
       </div>
-      <marquee direction="left">For enquiries, please contact us : 0803282837 , 0912872727, 23482282837. We are 
+      
+      <marquee direction="left" class="p-3 mb-2 bg-dark-subtle text-dark-emphasis">For enquiries, please contact us : 0803282837 , 0912872727, 23482282837. We are 
         working hard to make your experience on our site more better. Follow us on X : https://X.com/lpg products. thank you
       </marquee>
   
