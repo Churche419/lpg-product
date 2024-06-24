@@ -13,8 +13,7 @@
       </div>
   
       <div class="container p-3 mb-2 bg-dark-subtle text-dark-emphasis">
-        <h2 class="text-center mb-4 
-        ">Featured Products</h2>
+        <h2 class="text-center mb-4  p-3 mb-2 bg-black text-white">Featured Products</h2>
         <div class="row">
           <div class="col-md-3" v-for="product in featuredProducts" :key="product.id">
             <div class="card mb-4">
