@@ -1,6 +1,6 @@
 <!-- AboutUs.vue -->
 <template>
-    <div class="container mt-5">
+    <div class="container mt-5  bg-dark-subtle text-dark-emphasis">
       <div class="row">
         <div class="col-md-6">
           <h2>Contact Us</h2>
